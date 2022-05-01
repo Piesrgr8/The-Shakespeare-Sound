@@ -1,0 +1,25 @@
+/*
+Theme Name: Dana Site
+Author: Jared Bowman
+Description: The Shakespeare Sound Theme
+Version: 0.0.1
+Tags: bootstrap
+*/
+@charset "utf-8";
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #4d4040;
+  color: white;
+}
+
+header {
+
+}
+
+a {
+
+}
+
+footer {
+
+}

@@ -1,0 +1,56 @@
+.card-home {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0;
+}
+
+.card-home .wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 66%;
+  margin: auto;
+}
+
+.card-home .wrapper2 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 66%;
+  margin: auto;
+}
+
+.card-home #img {
+  margin: auto;
+  width: 100%;
+}
+
+.card-home #img img {
+  width: 100%;
+  float: left;
+}
+
+.card-home #text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-home #text #title {
+  display: block;
+  width: 100%;
+}
+
+.card-home #text #title h3 {
+}
+
+.card-home #text #content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.card-home #text #content p {
+  margin: 0px 40px;
+  font-family: lato;
+  font-size: 20px;
+  text-align: left;
+}

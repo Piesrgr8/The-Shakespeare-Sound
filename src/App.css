@@ -1,0 +1,110 @@
+@font-face {
+  font-family: imfellenglish;
+  src: url(./assets/font/IMFeENrm28P.ttf);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(assets/font/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: latobold;
+  src: url(assets/font/Lato-Bold.ttf);
+}
+
+body {
+  background-color: #4d4040;
+}
+
+.App {
+  text-align: center;
+  color: white;
+}
+
+.our-mission {
+  display: block;
+}
+
+.our-mission hr {
+  border-style: none;
+  border-width: 0;
+  background-color: #fff;
+  height: 1px;
+  opacity: 0.2;
+  width: 60%;
+}
+
+.our-mission .wrap {
+  display: flex;
+  width: 60%;
+  margin: 60px auto;
+}
+
+.our-mission .wrap .left {
+  width: 2506px;
+}
+
+.our-mission .wrap .left h1 {
+  margin-top: 0;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.25em;
+  color: rgba(255, 204, 0, 0.76);
+}
+
+.our-mission .wrap .left h2 {
+  text-align: center;
+  white-space: pre-wrap;
+  font-family: latobold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: 0.075em;
+  text-transform: none;
+  line-height: 1.8em;
+  color: #fff;
+}
+
+.our-mission .wrap .right {
+}
+
+.our-mission .wrap .right p {
+  margin-top: 0;
+  margin: 0 40px;
+  text-align: left;
+  font-family: lato;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 19px;
+  letter-spacing: 0.075em;
+  text-transform: none;
+  line-height: 1.8em;
+  color: #fff;
+}
+
+.background {
+  min-width: 100%;
+  width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  position: fixed;
+  transform: translate3d(0, 0, 0);
+}
+
+.background img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 15%;
+}
