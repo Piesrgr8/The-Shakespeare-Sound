@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Episodes from "../../danasite/src/pages/Episodes";
-import OurMission from "../../danasite/src/pages/OurMission";
-import ComingSoon from "../../danasite/src/pages/ComingSoon";
+import Episodes from "./pages/Episodes";
+import OurMission from "./pages/OurMission";
+import ComingSoon from "./pages/ComingSoon";
 import Home from "./pages/Home";
 
 import "./App.css";
