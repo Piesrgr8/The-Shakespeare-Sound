@@ -108,3 +108,14 @@ body {
   z-index: -1;
   opacity: 15%;
 }
+
+@media (max-width: 480px) {
+  .our-mission .wrap {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .our-mission .wrap .left {
+    width: unset;
+  }
+}

@@ -54,3 +54,23 @@
   font-size: 20px;
   text-align: left;
 }
+
+.card-home #text #content #cont2 {
+  text-align: right;
+}
+
+@media (max-width: 480px) {
+  .card-home .wrapper {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .card-home .wrapper2 {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .card-home #text #content #cont2 {
+    text-align: left;
+  }
+}

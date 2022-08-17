@@ -34,3 +34,9 @@ header .head-list li:hover {
 header .head-list li:active {
   color: rgb(141, 120, 0);
 }
+
+@media (max-width: 480px) {
+  header .head-list {
+    padding: 15px 0;
+  }
+}

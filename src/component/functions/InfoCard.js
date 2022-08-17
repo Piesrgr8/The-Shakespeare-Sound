@@ -35,7 +35,7 @@ export default function InfoCard(props) {
             </div>
             <hr style={{ width: "85%" }} />
             <div id="content">
-              <p style={{ textAlign: "right" }}>{props.text}</p>
+              <p id="cont2">{props.text}</p>
             </div>
           </div>
         </div>
