@@ -59,6 +59,16 @@
   text-align: right;
 }
 
+@media (max-width: 1024px) {
+  .card-home .wrapper {
+    width: 90%;
+  }
+
+  .card-home .wrapper2 {
+    width: 90%;
+  }
+}
+
 @media (max-width: 480px) {
   .card-home .wrapper {
     flex-direction: column;

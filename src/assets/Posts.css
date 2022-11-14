@@ -107,3 +107,39 @@ th {
 td {
   padding: 10px;
 }
+
+@media (max-width: 1024px) {
+  .episodes .wrap .the-episode {
+    display: flex;
+    justify-content: center;
+    margin: unset;
+    width: auto;
+  }
+
+  .episode article {
+    justify-content: center;
+    width: 90%;
+  }
+
+  audio {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .episodes .wrap .the-episode {
+    display: flex;
+    justify-content: center;
+    margin: unset;
+    width: auto;
+  }
+
+  .episode article {
+    justify-content: center;
+    width: 90%;
+  }
+
+  audio {
+    width: 100%;
+  }
+}

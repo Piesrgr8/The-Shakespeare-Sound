@@ -103,4 +103,9 @@ add_action('rest_api_init', function() {
 		);
 	}
 });
+
+add_filter("get_the_excerpt", function($excerpt) {
+	$excerpt = substr($excerpt, 0, strpos($excerpt, "1609"));
+	return $excerpt;
+});
 ?>

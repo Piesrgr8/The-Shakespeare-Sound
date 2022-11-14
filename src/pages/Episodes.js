@@ -17,8 +17,8 @@ export default function Episodes() {
             <article key={post.id}>
               <Link to={post.slug}>
                 <h1 dangerouslySetInnerHTML={{ __html: post.title.rendered}}/>
+                <p id="date">{post.formatted_date}</p>
               </Link>
-              <p id="date">{post.formatted_date}</p>
               <div
                 id="cont"
                 dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
