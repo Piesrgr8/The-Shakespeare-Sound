@@ -1,24 +1,39 @@
 body.login {
-    background-color: #4d4040;
+  background-color: #4d4040;
 }
-body.login div#login {}
-body.login div#login h1 {}
-body.login div#login h1 a {}
-body.login div#login form#loginform {}
-body.login div#login form#loginform p {}
-body.login div#login form#loginform p label {}
-body.login div#login form#loginform input {}
-body.login div#login form#loginform input#user_login {}
-body.login div#login form#loginform input#user_pass {}
-body.login div#login form#loginform p.forgetmenot {}
-body.login div#login form#loginform p.forgetmenot input#rememberme {}
-body.login div#login form#loginform p.submit {}
-body.login div#login form#loginform p.submit input#wp-submit {}
-body.login div#login p#nav {}
+body.login div#login {
+}
+body.login div#login h1 {
+}
+body.login div#login h1 a {
+}
+body.login div#login form#loginform {
+}
+body.login div#login form#loginform p {
+}
+body.login div#login form#loginform p label {
+}
+body.login div#login form#loginform input {
+}
+body.login div#login form#loginform input#user_login {
+}
+body.login div#login form#loginform input#user_pass {
+}
+body.login div#login form#loginform p.forgetmenot {
+}
+body.login div#login form#loginform p.forgetmenot input#rememberme {
+}
+body.login div#login form#loginform p.submit {
+}
+body.login div#login form#loginform p.submit input#wp-submit {
+}
+body.login div#login p#nav {
+}
 body.login div#login p#nav a {
-    color: white;
+  color: white;
 }
-body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog {
+}
 body.login div#login p#backtoblog a {
-    color: white;
+  color: white;
 }

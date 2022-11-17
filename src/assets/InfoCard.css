@@ -1,86 +1,86 @@
 .card-home {
-  display: flex;
-  flex-direction: column;
-  margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
 }
 
 .card-home .wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 66%;
-  margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 66%;
+    margin: auto;
 }
 
 .card-home .wrapper2 {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 66%;
-  margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 66%;
+    margin: auto;
 }
 
 .card-home #img {
-  margin: auto;
-  width: 100%;
+    margin: auto;
+    width: 100%;
 }
 
 .card-home #img img {
-  width: 100%;
-  float: left;
+    width: 100%;
+    float: left;
 }
 
 .card-home #text {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-home #text #title {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
 .card-home #text #title h3 {
 }
 
 .card-home #text #content {
-  display: flex;
-  height: 100%;
-  align-items: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 .card-home #text #content p {
-  margin: 0px 40px;
-  font-family: lato;
-  font-size: 20px;
-  text-align: left;
+    margin: 0px 40px;
+    font-family: lato;
+    font-size: 20px;
+    text-align: left;
 }
 
 .card-home #text #content #cont2 {
-  text-align: right;
+    text-align: right;
 }
 
 @media (max-width: 1024px) {
-  .card-home .wrapper {
-    width: 90%;
-  }
+    .card-home .wrapper {
+        width: 90%;
+    }
 
-  .card-home .wrapper2 {
-    width: 90%;
-  }
+    .card-home .wrapper2 {
+        width: 90%;
+    }
 }
 
 @media (max-width: 480px) {
-  .card-home .wrapper {
-    flex-direction: column;
-    width: 90%;
-  }
+    .card-home .wrapper {
+        flex-direction: column;
+        width: 90%;
+    }
 
-  .card-home .wrapper2 {
-    flex-direction: column;
-    width: 90%;
-  }
+    .card-home .wrapper2 {
+        flex-direction: column;
+        width: 90%;
+    }
 
-  .card-home #text #content #cont2 {
-    text-align: left;
-  }
+    .card-home #text #content #cont2 {
+        text-align: left;
+    }
 }

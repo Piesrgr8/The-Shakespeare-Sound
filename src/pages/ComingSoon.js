@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react'
 
 export default function ComingSoon() {
-  return <div>ComingSoon</div>;
+    return <div>ComingSoon</div>
 }

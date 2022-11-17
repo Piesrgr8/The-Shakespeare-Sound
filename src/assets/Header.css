@@ -1,42 +1,42 @@
 @font-face {
-  font-family: lato;
-  src: url(./font/Lato-Light.ttf);
+    font-family: lato;
+    src: url(./font/Lato-Light.ttf);
 }
 
 header {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 header .head-list {
-  display: flex;
-  margin: auto;
+    display: flex;
+    margin: auto;
 }
 
 header .head-list a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 header .head-list li {
-  list-style: none;
-  font-family: lato;
-  padding: 20px;
-  color: white;
-  text-decoration: none;
-  transition: 0.2s;
+    list-style: none;
+    font-family: lato;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
 header .head-list li:hover {
-  color: gold;
-  transition: 0.2s;
+    color: gold;
+    transition: 0.2s;
 }
 
 header .head-list li:active {
-  color: rgb(141, 120, 0);
+    color: rgb(141, 120, 0);
 }
 
 @media (max-width: 480px) {
-  header .head-list {
-    padding: 15px 0;
-  }
+    header .head-list {
+        padding: 15px 0;
+    }
 }
