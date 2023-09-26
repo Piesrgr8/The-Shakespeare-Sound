@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #4d4040;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.App {
+    text-align: center;
+    color: white;
+
+    .our-mission {
+        display: block;
+
+        hr {
+            border-style: none;
+            border-width: 0;
+            background-color: #fff;
+            height: 1px;
+            opacity: 0.2;
+            width: 60%;
+        }
+
+        .wrap {
+            display: flex;
+            width: 60%;
+            margin: 60px auto;
+
+            .left {
+                width: 2506px;
+
+                h1 {
+                    margin-top: 0;
+                    font-family: Playfair Display;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 50px;
+                    letter-spacing: 0.015em;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    line-height: 1.25em;
+                    color: rgba(255, 204, 0, 0.76);
+                }
+
+                h2 {
+                    text-align: center;
+                    white-space: pre-wrap;
+                    font-family: latobold;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 19px;
+                    letter-spacing: 0.075em;
+                    text-transform: none;
+                    line-height: 1.8em;
+                    color: #fff;
+                }
+            }
+
+            .right {
+
+                p {
+                    margin-top: 0;
+                    margin: 0 40px;
+                    text-align: left;
+                    font-family: lato;
+                    font-style: normal;
+                    font-weight: 100;
+                    font-size: 19px;
+                    letter-spacing: 0.075em;
+                    text-transform: none;
+                    line-height: 1.8em;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    
+    .background {
+        min-width: 100%;
+        width: 100%;
+        min-height: 100%;
+        z-index: -1;
+        position: fixed;
+        transform: translate3d(0, 0, 0);
+
+        img {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            z-index: -1;
+            opacity: 15%;
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .our-mission .wrap {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .our-mission .wrap .left {
+        width: unset;
+    }
+}

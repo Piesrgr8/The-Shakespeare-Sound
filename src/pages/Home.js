@@ -2,7 +2,7 @@ import React from 'react'
 import InfoCard from '../component/functions/InfoCard'
 
 import img1 from '../assets/img/reggie-header1.jpg'
-import '../assets/Home.css'
+import img2 from '../assets/img/reggie-header.jpg'
 import Title from '../component/functions/Title'
 
 export default function Home() {
@@ -17,14 +17,14 @@ export default function Home() {
                 id={1}
                 img={img1}
                 title="Our Podcast"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                text="Wouldn't it be nice to sit down, put in some earbuds, and listen to a podcast that can fully explain the world of Shakespeare? We demonstrate exactly that, and go through the words of Shakespeare, while learning how to act out and interpret it all. We hope to show the inner workings of his text and truly how powerful words are!"
             />
 
             <InfoCard
                 id={2}
-                img={img1}
-                title="Our Podcast"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                img={img2}
+                title="A Message"
+                text="We are truly sorry for the huge delay, as we have went through a lot of life changes and struggles to deal with. We hope that we can make it up to you all, and re-release the old episodes that made us who we are today on this brand new website of ours! Our 'coming soon' page was a promise, and we have yet to break it, so sit tight as we produce the new revival of our amazing podcast!"
             />
         </div>
     )

@@ -1,0 +1,144 @@
+.episodes {
+    display: block;
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+
+        .the-episode {
+            display: block;
+            width: 60%;
+            margin: auto;
+            padding: 40px 0px;
+
+            a {
+                color: rgba(255, 204, 0, 0.76);
+                text-decoration: none;
+                font-family: imfellenglish;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                letter-spacing: 0.08em;
+                text-transform: none;
+                line-height: 1.5em;
+                text-align: center;
+            }
+
+            #date {
+                color: rgba(221, 177, 0, 0.76);
+                text-decoration: none;
+            }
+
+            #cont p {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 100;
+                font-size: 19px;
+                letter-spacing: 0.075em;
+                text-transform: none;
+                line-height: 1.8em;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.episode {
+    display: block;
+
+    article {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+
+        #title h1 {
+            color: rgba(255, 204, 0, 0.76);
+            text-decoration: none;
+            font-family: imfellenglish;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: 0.08em;
+            text-transform: none;
+            line-height: 1.5em;
+            text-align: center;
+        }
+
+        #date {
+            color: rgba(221, 177, 0, 0.76);
+            text-decoration: none;
+        }
+    }
+
+    .wrap #cont p {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 19px;
+        letter-spacing: 0.075em;
+        text-transform: none;
+        line-height: 1.8em;
+        color: #fff;
+    }
+}
+
+audio {
+    width: 50%;
+}
+
+figure {
+    display: block ruby;
+    margin: 50px 0px;
+}
+
+th {
+    padding: 20px;
+    border: 1px solid white;
+}
+
+td {
+    padding: 10px;
+}
+
+@media (max-width: 1024px) {
+    .episodes {
+        .wrap .the-episode {
+            display: flex;
+            justify-content: center;
+            margin: unset;
+            width: auto;
+        }
+
+        article {
+            justify-content: center;
+            width: 90%;
+        }
+    }
+
+    audio {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .episodes {
+        .wrap .the-episode {
+            display: flex;
+            justify-content: center;
+            margin: unset;
+            width: auto;
+        }
+
+        article {
+            justify-content: center;
+            width: 90%;
+        }
+    }
+    
+    audio {
+        width: 100%;
+    }
+}
