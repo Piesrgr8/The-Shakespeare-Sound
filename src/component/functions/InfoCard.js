@@ -1,5 +1,7 @@
 import React from 'react'
 
+import '../../assets/InfoCard.css'
+
 export default function InfoCard(props) {
     if (props.id === 1) {
         return (
