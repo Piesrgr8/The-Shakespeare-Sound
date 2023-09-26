@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import axios from 'axios'
 
-import '../assets/Posts.css'
 import Title from '../component/functions/Title'
 
 export default function Episodes() {

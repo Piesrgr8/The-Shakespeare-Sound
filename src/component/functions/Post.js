@@ -1,7 +1,5 @@
 import React from 'react'
 
-import '../../assets/Posts.css'
-
 export default function Post(props) {
     const post = props.post
     return (

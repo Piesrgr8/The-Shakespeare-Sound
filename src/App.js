@@ -5,7 +5,6 @@ import OurMission from './pages/OurMission'
 import ComingSoon from './pages/ComingSoon'
 import Home from './pages/Home'
 
-import './App.css'
 import Book from './assets/img/sonnetbook.JPG'
 import Footer from './component/required/Footer'
 import Header from './component/required/Header'
