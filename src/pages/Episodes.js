@@ -13,7 +13,7 @@ export default function Episodes() {
     const [posts, setPosts] = useState(initPosts)
 
     const onNext = () => {
-        if (page > header['x-wp-totalpages']) {
+        if (page >= header['x-wp-totalpages']) {
             return
         }
         setPage(page + 1)
@@ -42,16 +42,21 @@ export default function Episodes() {
             })
             .catch((err) => console.log(err))
         setLoaded(true)
-    }, [loaded])
+    }, [loaded, page])
 
     return (
         <div className="episodes">
             <Title title="PODCAST EPISODES" />
-            {loaded ? <h2></h2> : <h2>Loading...</h2>}
+            {loaded ? <></> : <h2>Loading...</h2>}
             <div
                 className="wrap"
                 style={loaded ? { display: 'block' } : { display: 'none' }}
             >
+                <div className='pagination'>
+                    <button onClick={onNext}>Next →</button>
+                    <p>{page}</p>
+                    <button onClick={onPrevious}>← Previous</button>
+                </div>
                 {posts.map((post) => (
                     <div className="the-episode">
                         <article key={post.id}>
@@ -72,8 +77,10 @@ export default function Episodes() {
                         </article>
                     </div>
                 ))}
-                <button onClick={onNext}>Next</button>
-                <button onClick={onPrevious}>Previous</button>
+                <div className='pagination'>
+                    <button onClick={onNext}>Next →</button>
+                    <button onClick={onPrevious}>← Previous</button>
+                </div>
             </div>
             <Outlet />
         </div>

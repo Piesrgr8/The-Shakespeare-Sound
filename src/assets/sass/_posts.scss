@@ -7,6 +7,26 @@
         width: 80%;
         margin: auto;
 
+        .pagination {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+
+            button {
+                border: none;
+                background-color: unset;
+                color: rgba(255, 204, 0, 0.76);
+                font-family: imfellenglish;
+                font-size: 20px;
+            }
+
+            p {
+                font-family: imfellenglish;
+                font-size: 60px;
+                margin: 0;
+            }
+        }
+
         .the-episode {
             display: block;
             width: 60%;

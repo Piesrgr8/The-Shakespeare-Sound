@@ -130,6 +130,23 @@ header .head-list li:active {
   width: 80%;
   margin: auto;
 }
+.episodes .wrap .pagination {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.episodes .wrap .pagination button {
+  border: none;
+  background-color: unset;
+  color: rgba(255, 204, 0, 0.76);
+  font-family: imfellenglish;
+  font-size: 20px;
+}
+.episodes .wrap .pagination p {
+  font-family: imfellenglish;
+  font-size: 60px;
+  margin: 0;
+}
 .episodes .wrap .the-episode {
   display: block;
   width: 60%;
